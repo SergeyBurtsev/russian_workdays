@@ -5,7 +5,7 @@ require "date"
 
 describe RussianWorkdays::Day do
   before(:all) do
-    @holidays = %w[2014-05-01 2014-05-02 2014-05-03 2014-05-04]
+    @holidays = %w[2026-01-01]
     @preholidays = %w[2014-02-24 2014-03-07 2014-04-30 2014-05-08 2014-06-11 2014-12-31]
     @works = %w[2014-05-05 2014-05-06 2014-05-06]
     @non_holiday_moved_weekends = %w[2024-04-27 2024-12-28]
